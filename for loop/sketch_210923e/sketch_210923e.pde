@@ -14,7 +14,6 @@ void draw() {
     for (int j = 5; j <= 450; j = j + 45 ) {
       float r = random(-3, 3);
       rect(i+r, j+r, 40, 40);
-      redraw();
       
     }
   }
